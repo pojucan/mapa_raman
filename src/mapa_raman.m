@@ -2,7 +2,7 @@
 pkg load image
 
 % Carregar a imagem do mapa Raman
-mapa_raman = imread('mapa_raman.png');
+mapa_raman = imread('exemples/mapa_raman.png');
 
 % Converter para escala de cinza se necessário
 if ndims(mapa_raman) == 3
